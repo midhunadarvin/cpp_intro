@@ -1,0 +1,6 @@
+.vscode
+*.dSYM
+*.o
+*.exe
+*.so
+*.out
