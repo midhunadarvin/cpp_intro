@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Library for dynamic linking - https://pubs.opengroup.org/onlinepubs/7908799/xsh/dlfcn.h.html
+/* Library for dynamic linking - https://pubs.opengroup.org/onlinepubs/7908799/xsh/dlfcn.h.html */
 #include <dlfcn.h>
 
 // Defines a type for the functions that are available in the shared library
