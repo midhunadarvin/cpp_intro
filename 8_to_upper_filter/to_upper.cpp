@@ -3,11 +3,11 @@
  * Copy the contents for a file to a new file
  *
  * Useage :
- * g++ -o copy_file.exe copy_file.cpp
+ * g++ -o to_upper.exe to_upper.cpp
  *
- * ./copy_file.exe < {file_name} > {new_file_name}
+ * ./to_upper.exe < {file_name} > {new_file_name}
  *
- * Eg. ./copy_file.exe < copy_file.cpp > copy_file_output.txt
+ * Eg.
  */
 
 #include <stdio.h>
@@ -18,7 +18,7 @@ int main()
 {
     int c;
     while ((c = getchar()) != EOF)
-        putchar(c);
+        putchar(toupper(c));
 
     return 0;
 }
