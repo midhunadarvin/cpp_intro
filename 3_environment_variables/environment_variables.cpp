@@ -1,6 +1,7 @@
-#include<stdio.h>
-
 /**
+ * 
+ * A C++ program to print environment variables
+ * 
  * g++ environment_variables.cpp -o environment_variables.o
  * ./environment_variables.o abcd efgh ijkl mnop
  * 
@@ -10,7 +11,10 @@
  * efgh
  * ijkl
 */
-int main(int argc, char **envp)
+
+#include<stdio.h>
+
+int main(int argc, char** argv, char **envp)
 {
     char **tempenv = envp;
 
