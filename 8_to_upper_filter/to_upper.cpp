@@ -7,7 +7,7 @@
  *
  * ./to_upper.exe < {file_name} > {new_file_name}
  *
- * Eg.
+ * Eg. ./to_upper.exe < sample.txt > output.txt
  */
 
 #include <stdio.h>
